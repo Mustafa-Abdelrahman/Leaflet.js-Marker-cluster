@@ -1,0 +1,15 @@
+#map{
+    display: inline-block;
+    height: 500px;
+    width: 65%
+}
+#mainDiv{
+    width:100%;
+    text-align: center
+}
+.btnsDiv{
+    display: inline-block;
+    width: 80%;
+    margin-top: 70px;
+    margin-bottom: 10px
+}

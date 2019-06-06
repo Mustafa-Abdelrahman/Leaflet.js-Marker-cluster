@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Leaflet Map with Marker Clustering</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!-- Load Leaflet from CDN-->
+    <link rel="stylesheet" href="leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <script src="leaflet/dist/leaflet-src.js"></script>
+    <!-- Leaflet Marker Cluster files-->
+    <link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <script src="leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+    <script src="/leaflet-google/dist/leaflet-google.js"></script>
+
+    <!-- Load Esri Leaflet from CDN -->
+    <!-- <script src="https://unpkg.com/esri-leaflet@2.2.4/dist/esri-leaflet.js"
+          integrity="sha512-tyPum7h2h36X52O2gz+Pe8z/3l+Y9S1yEUscbVs5r5aEY5dFmP1WWRY/WLLElnFHa+k1JBQZSCDGwEAnm2IxAQ=="
+          crossorigin=""></script>    -->
+
+</head>
+
+<body>
+
+    <div id="mainDiv">
+        <div class=" btnsDiv">
+            <div class=" btnsDiv">
+                <div class="btn-group">
+                    <button class="btn btn-default  active" id="satMapBtn" onclick="satmapBtn()">Satelite</button>
+                    <button class="btn btn-default" id="rdMapBtn" onclick="roadmapBtn()">RoadMap</button>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+        </div>
+
+    </div>
+
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0xQk9v3W6kT3XdC3gnC8D2rGm05z4CtM"
+    ></script> -->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
